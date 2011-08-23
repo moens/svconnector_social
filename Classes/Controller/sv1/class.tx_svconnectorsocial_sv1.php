@@ -169,7 +169,7 @@ class tx_svconnectorsocial_sv1 extends tx_svconnector_base {
 	 */
 
 	public function handleArray($rawData) {
-		require_once(t3lib_extMgm::extPath('external_import', 'res/jsonpath.php'));
+		require_once(t3lib_extMgm::extPath($this->extKey, 'Classes/Api/jsonpath/jsonpath.php'));
 
 		$data = array();
 		if (is_array($rawData) && count($rawData) > 0) {
