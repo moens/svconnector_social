@@ -168,25 +168,27 @@ class tx_svconnectorsocial_sv1 extends tx_svconnector_base {
 	 * @return	array		response stored as an indexed array of records (associative array of fields)
 	 */
 
-	public function handleArray($rawData) {
+	public function handleArray($rawData, $tableTCA, $index, $externalConfig, $numAdditionalFields, $additionalFields) {
 		require_once(t3lib_extMgm::extPath($this->extKey, 'Classes/Api/jsonpath/jsonpath.php'));
 
 		$data = array();
 		if (is_array($rawData) && count($rawData) > 0) {
+			if (TYPO3_DLOG || $this->extConf['debug']) t3lib_div::devLog('Input from the fx(call)', $this->extKey, 1, $rawData);
 			
 			// Get the nodes that represent the root of each data record as in handleXML()
 			// see jsonPath syntax here: http://code.google.com/p/jsonpath/wiki/PHP
 			// nothing special needs to be done for root level nodes, just leave nodetype blank
 			$records = jsonPath($rawData, "$." . $this->externalConfig['nodetype'] . "[*]");
+			if (TYPO3_DLOG || $this->extConf['debug']) t3lib_div::devLog('data after jsonpath', $this->extKey, 1, $records);
 			if(count($records) > 0) {
 				// Loop on all external data entities
 				foreach ($records as $theRecord) {
 					$theData = array();
 
 					// Loop on the database columns and get the corresponding value from the import data
-					foreach ($this->tableTCA['columns'] as $columnName => $columnData) {
+					foreach ($tableTCA['columns'] as $columnName => $columnData) {
 						// Does this column have a "field" key?
-						if (isset($columnData['external'][$this->index]['field'])) {
+						if (isset($columnData['external'][$index]['field'])) {
 /*
 							$nodeList = $theRecord->getElementsByTagName($columnData['external'][$this->index]['field']);
 							if ($nodeList->length > 0) {
@@ -195,13 +197,13 @@ class tx_svconnectorsocial_sv1 extends tx_svconnector_base {
 								$selectedNode = $nodeList->item(0);
 */
 							// Does the external data entity have a value for this "field" value?
-							if (isset($theRecord[$columnData['external'][$this->index]['field']])) {
+							if (isset($theRecord[$columnData['external'][$index]['field']])) {
 
 // if ($this->extConf['debug'] || TYPO3_DLOG) t3lib_div::devLog('Does the external data entity have a value (' . $theRecord[$columnData['external'][$this->index]['field']] . ') for the "field" value (' . $columnData['external'][$this->index]['field'] .')? ', $this->extKey, 1, $theRecord);
-								$theData[$columnName] = $theRecord[$columnData['external'][$this->index]['field']];
+								$theData[$columnName] = $theRecord[$columnData['external'][$index]['field']];
 								// If it does, and there is a jsonpath expression defined as well, apply it (relative to currently selected node)
-								if (!empty($columnData['external'][$this->index]['jsonpath'])) {
-									$resultNodes = jsonPath($theRecord[$columnData['external'][$this->index]['field']], "$." . $columnData['external'][$this->index]['jsonpath'] . "[*]");
+								if (!empty($columnData['external'][$index]['jsonpath'])) {
+									$resultNodes = jsonPath($theRecord[$columnData['external'][$index]['field']], "$." . $columnData['external'][$index]['jsonpath'] . "[*]");
 //															$xPathObject->evaluate($columnData['external'][$this->index]['xpath'], $selectedNode);
 									if (count($resultNodes) > 0) {
 										$theData[$columnName] = $resultNodes[0];
@@ -233,8 +235,8 @@ class tx_svconnectorsocial_sv1 extends tx_svconnector_base {
 */
 					
 					// Get additional fields data, if any
-					if ($this->numAdditionalFields > 0) {
-						foreach ($this->additionalFields as $fieldName) {
+					if ($numAdditionalFields > 0) {
+						foreach ($additionalFields as $fieldName) {
 							if (isset($theRecord[$fieldName])) {
 								$theData[$fieldName] = $theRecord[$fieldName];
 							}
