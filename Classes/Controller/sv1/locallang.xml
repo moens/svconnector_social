@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Localisation file for Social Feed Connector Service</description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<fileId>EXT:svconnector_social/Classes/Controller/sv1/locallang.xml</fileId>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="no_social_network_defined">no social network defined</label>
+			<label index="no_facebook_search_text_defined">no facebook search text defined</label>
+			<label index="no_twitter_search_text_defined">no twitter search text defined</label>
+			<label index="social_feed_not_found">social feed url %$1s not found, Error: %2$s</label>
+			<label index="to_setup_flickr_you_must_set">To setup the Flickr API you must set: </label>
+			<label index="either_the_flickr_search_text_or_the_flickr_search_tags">either the flickr_search_text or the flickr_search_tags</label>
+		</languageKey>
+	</data>
+</T3locallang>

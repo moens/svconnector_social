@@ -1,0 +1,6 @@
+# cat=basic/enable/10; type=string; label=Pages to Clear on import: This extension will typically import external data into an existing extension like tt_news. When you do an import, you usually want to clear the cache for the pages that display the extension data. Enter a comma delimited list of such page's ids here.
+clearCacheOnImport =
+# cat=basic/enable/20; type=boolean; label=Debug: Check to turn on debugging to the Dev Log. Debugging also takes place if TYPO3_DLOG is true. Requires devlog or similar extension.
+debug = 0
+# cat=basic/enable/30; type=int; label=Cache Time: Social Network search queries are cached for 30 seconds. This allows several imports that use the same data to have access to it locally. This cache time does not affect any other caching ttl's in the system. You can change this, but it is not recommended.
+cacheTime = 30

@@ -1,0 +1,14 @@
+Included here are:
+phpflickr:	php wrapper for flickr API including their unique auth scheme
+		svn export http://code.google.com/p/phpflickr/
+
+php-sdk:	this is the Facebook sdk which includes oAuth2.0 for facebook
+		git pull https://github.com/facebook/php-sdk/
+
+tmhOAuth:	the twitter oAuth 1.1a class by themattharris
+		git pull https://github.com/themattharris/tmhOAuth
+
+twitteroauth:	a second twitter oAuth1.1a class by "abraham"
+		git pull https://github.com/abraham/twitteroauth
+
+One could use the Zend sauth lib to replace all of these (and more, its nice!)... but who wants to use Zend? For those who do, see https://github.com/nnixaa/sauth
