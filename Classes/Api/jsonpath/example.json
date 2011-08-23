@@ -1,0 +1,297 @@
+{
+  results: [
+    {
+      from_user_id_str: "2538535",
+      profile_image_url: "http://a2.twimg.com/profile_images/65697463/G_normal.png",
+      created_at: "Wed, 01 Jun 2011 12:50:27 +0000",
+      from_user: "GetNuHoAdmiJobs",
+      id_str: "75907056758038529",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "Nurs... - #Gallup , NM (http://tinyurl.com/3plywws) Get Nursing Home Administration Jobs #NursingHomeAdministration #jobs #job #GetAllJobs",
+      id: 75907056758038530,
+      from_user_id: 2538535,
+      geo: {
+        type: "Point",
+        coordinates: [
+          35.39,
+          -108.6223
+        ]
+      },
+      iso_language_code: "en",
+      place: {
+        id: "a70dd65ceede08f7",
+        type: "city",
+        full_name: "Red Rock, NM"
+      },
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://www.getalljobs.com&quot; rel=&quot;nofollow&quot;&gt;GetAllJobs&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "164563042",
+      profile_image_url: "http://a0.twimg.com/profile_images/1143132722/117_normal.JPG",
+      created_at: "Wed, 01 Jun 2011 08:53:04 +0000",
+      from_user: "Smoked_Brats",
+      id_str: "75847319983099904",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "Kurzweils Ctry Meats Garden city greenbelt map: ... galena illinois map gac map gallup nm map ... http://bit.ly/jwMAOK Famous Pork Chops",
+      id: 75847319983099900,
+      from_user_id: 164563042,
+      geo: null,
+      iso_language_code: "nl",
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://twitterfeed.com&quot; rel=&quot;nofollow&quot;&gt;twitterfeed&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "284874016",
+      profile_image_url: "http://a3.twimg.com/profile_images/1339013105/Blue_normal.jpg",
+      created_at: "Wed, 01 Jun 2011 08:31:40 +0000",
+      from_user: "i_KiSseD_a_BoY2",
+      id_str: "75841933385285632",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "Midnight was the start of my mini adventure. Headed to Gallup NM. See ya in a while twitter",
+      id: 75841933385285630,
+      from_user_id: 284874016,
+      geo: null,
+      iso_language_code: "en",
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://blackberry.com/twitter&quot; rel=&quot;nofollow&quot;&gt;Twitter for BlackBerry®&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "32729456",
+      profile_image_url: "http://a3.twimg.com/profile_images/1232263566/Cactus-Land_normal.gif",
+      created_at: "Wed, 01 Jun 2011 02:57:50 +0000",
+      from_user: "cityoftucsonaz",
+      id_str: "75757922449235968",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: 6176220,
+      text: "@MCat20 Gallup, NM - Is that where your heading?",
+      id: 75757922449235970,
+      from_user_id: 32729456,
+      to_user: "MCat20",
+      geo: null,
+      iso_language_code: "en",
+      to_user_id_str: "6176220",
+      source: "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "29025337",
+      profile_image_url: "http://a3.twimg.com/profile_images/1336624905/FlagEagle_normal.jpg",
+      created_at: "Wed, 01 Jun 2011 01:23:04 +0000",
+      from_user: "BlackSheepMafia",
+      id_str: "75734073317928960",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "RT @leftcoastluv: Gallup?!?! New Mexico?!?! wow ...",
+      id: 75734073317928960,
+      from_user_id: 29025337,
+      geo: null,
+      iso_language_code: "en",
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "238641744",
+      profile_image_url: "http://a2.twimg.com/profile_images/1375802059/image_normal.jpg",
+      created_at: "Wed, 01 Jun 2011 00:21:44 +0000",
+      from_user: "leftcoastluv",
+      id_str: "75718637448740865",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "Gallup?!?! New Mexico?!?! wow ...",
+      id: 75718637448740860,
+      from_user_id: 238641744,
+      geo: null,
+      iso_language_code: "en",
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "51494631",
+      profile_image_url: "http://a1.twimg.com/profile_images/1363829519/IMG_4217_normal.JPG",
+      created_at: "Tue, 31 May 2011 23:49:49 +0000",
+      from_user: "ngloriouspastor",
+      id_str: "75710603980845056",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "Helloooo &amp; Goodbyyye Gallup, NM. #fb",
+      id: 75710603980845060,
+      from_user_id: 51494631,
+      geo: null,
+      iso_language_code: "nl",
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "10284837",
+      profile_image_url: "http://a3.twimg.com/profile_images/265994863/twitpic_normal.jpg",
+      created_at: "Tue, 31 May 2011 22:28:32 +0000",
+      from_user: "FCCHB",
+      id_str: "75690150805516289",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "RT @ngloriouspastor: Nxt up Gallup, NM. 9hrs n2 this journey to #Joplin w @johnbayhi Rick Falk w/ supplies for The Bridge &amp; others. #fb",
+      id: 75690150805516290,
+      from_user_id: 10284837,
+      geo: null,
+      iso_language_code: "en",
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "51494631",
+      profile_image_url: "http://a1.twimg.com/profile_images/1363829519/IMG_4217_normal.JPG",
+      created_at: "Tue, 31 May 2011 22:24:56 +0000",
+      from_user: "ngloriouspastor",
+      id_str: "75689242453483520",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "Nxt up Gallup, NM. 9hrs n2 this journey to #Joplin w @johnbayhi Rick Falk w/ supplies for The Bridge &amp; others. #fb",
+      id: 75689242453483520,
+      from_user_id: 51494631,
+      geo: null,
+      iso_language_code: "en",
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "19013098",
+      profile_image_url: "http://a0.twimg.com/profile_images/234629474/me_and_french_bulldog_pup_normal.jpg",
+      created_at: "Tue, 31 May 2011 19:47:12 +0000",
+      from_user: "mo_navajo",
+      id_str: "75649548365725696",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "&quot;@paultracy3: 90 to gallop nm http://t.co/0u5VCFy&quot;&lt;--Dude Its Gallup, NM! Say hey to ma Gtown Posse for me #NativeStylin #RezShoutOut",
+      id: 75649548365725700,
+      from_user_id: 19013098,
+      geo: null,
+      iso_language_code: "en",
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://twitter.com/download/android&quot; rel=&quot;nofollow&quot;&gt;Twitter for Android&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "34230198",
+      profile_image_url: "http://a1.twimg.com/profile_images/355687070/LOGO_ONLY_normal.png",
+      created_at: "Tue, 31 May 2011 19:23:15 +0000",
+      from_user: "WeAreHandsFeet",
+      id_str: "75643521981349889",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "Gallup, New Mexico. It's a pretty sweet place near and dear to our hearts. Have you visited on a trip with us yet?... http://fb.me/OjBpZ5fr",
+      id: 75643521981349890,
+      from_user_id: 34230198,
+      geo: null,
+      iso_language_code: "en",
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://www.facebook.com/twitter&quot; rel=&quot;nofollow&quot;&gt;Facebook&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "7002628",
+      profile_image_url: "http://a1.twimg.com/profile_images/906743016/Allegaeon_cover_normal.jpg",
+      created_at: "Tue, 31 May 2011 18:57:11 +0000",
+      from_user: "Allegaeon",
+      id_str: "75636959254548482",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "Come to &quot;Allegaeon @ Gallup, NM&quot; Saturday, June 11 from 6:00 pm to 9:00 pm. All Ages http://fb.me/Cf2dHpn7",
+      id: 75636959254548480,
+      from_user_id: 7002628,
+      geo: null,
+      iso_language_code: "en",
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://www.facebook.com/twitter&quot; rel=&quot;nofollow&quot;&gt;Facebook&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "240063545",
+      profile_image_url: "http://a0.twimg.com/profile_images/1293368238/uShip_Logo_for_Twitter_normal.jpg",
+      created_at: "Tue, 31 May 2011 16:00:12 +0000",
+      from_user: "uShipGA",
+      id_str: "75592422796697600",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "2006 Dodge Charger: From Kennesaw, GA to Gallup, NM Offer - Max: $900 Bids: 0 http://dlvr.it/TcSFP",
+      id: 75592422796697600,
+      from_user_id: 240063545,
+      geo: null,
+      iso_language_code: "da",
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://dlvr.it&quot; rel=&quot;nofollow&quot;&gt;dlvr.it&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "240063545",
+      profile_image_url: "http://a0.twimg.com/profile_images/1293368238/uShip_Logo_for_Twitter_normal.jpg",
+      created_at: "Tue, 31 May 2011 16:00:12 +0000",
+      from_user: "uShipGA",
+      id_str: "75592421718761472",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: null,
+      text: "2006 Dodge Charger: From Kennesaw, GA to Gallup, NM Offer - Place Bid Bids: 0 http://dlvr.it/TcSFH",
+      id: 75592421718761470,
+      from_user_id: 240063545,
+      geo: null,
+      iso_language_code: "en",
+      to_user_id_str: null,
+      source: "&lt;a href=&quot;http://dlvr.it&quot; rel=&quot;nofollow&quot;&gt;dlvr.it&lt;/a&gt;"
+    },
+    {
+      from_user_id_str: "29025337",
+      profile_image_url: "http://a3.twimg.com/profile_images/1336624905/FlagEagle_normal.jpg",
+      created_at: "Tue, 31 May 2011 12:40:24 +0000",
+      from_user: "BlackSheepMafia",
+      id_str: "75542140326920192",
+      metadata: {
+        result_type: "recent"
+      },
+      to_user_id: 18850350,
+      text: "@LasVegasLisa |AL from Gallup NM",
+      id: 75542140326920200,
+      from_user_id: 29025337,
+      to_user: "LasVegasLisa",
+      geo: null,
+      iso_language_code: "is",
+      to_user_id_str: "18850350",
+      source: "&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;"
+    }
+  ],
+  max_id: 75909458928205820,
+  since_id: 0,
+  refresh_url: "?since_id=75909458928205824&q=%22gallup+new+mexico%22+OR+%22gallup+nm%22+OR+gallupnm+OR+livegallup",
+  next_page: "?page=2&max_id=75909458928205824&q=%22gallup+new+mexico%22+OR+%22gallup+nm%22+OR+gallupnm+OR+livegallup",
+  results_per_page: 15,
+  page: 1,
+  completed_in: 0.110661,
+  since_id_str: "0",
+  max_id_str: "75909458928205824",
+  query: "%22gallup+new+mexico%22+OR+%22gallup+nm%22+OR+gallupnm+OR+livegallup"
+}
